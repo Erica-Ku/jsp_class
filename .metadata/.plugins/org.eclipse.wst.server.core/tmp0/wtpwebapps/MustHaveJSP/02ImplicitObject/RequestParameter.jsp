@@ -18,7 +18,9 @@ if (favo != null) {
 		favoStr += favo[i] + " ";
 	}
 }
-String intro = request.getParameter("intro").replace("\r\n", "<br />");
+String intro1 = request.getParameter("intro");
+String intro = "Empty";
+if(intro1 != null) intro = intro1.replace("\r\n", "<br />");
 %>
 <ul>
 	<li>아이디 : <%= id %></li>

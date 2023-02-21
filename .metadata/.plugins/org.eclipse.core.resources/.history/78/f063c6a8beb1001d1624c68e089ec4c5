@@ -13,7 +13,7 @@
 	</a>
 	<br />
 	<form action="RequestWebInfo.jsp" method="post">
-		영어 : <input type="text" name="eng" value="Bye" /><br />
+		영어 : <input type="text" name="eng" value="bye" /><br />
 		한글 : <input type="text" name="han" value="잘 가" /><br />
 		<input type="submit" value="POST 방식 전송" />
 	</form>
