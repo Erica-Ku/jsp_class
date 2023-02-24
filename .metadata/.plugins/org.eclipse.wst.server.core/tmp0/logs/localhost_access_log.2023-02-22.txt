@@ -62,3 +62,5 @@
 0:0:0:0:0:0:0:1 - - [22/Feb/2023:12:53:26 +0900] "GET /MustHaveJSP/JSPMission/gugudan3.jsp HTTP/1.1" 200 404
 0:0:0:0:0:0:0:1 - - [22/Feb/2023:12:53:35 +0900] "GET /MustHaveJSP/JSPMission/gugudanMain.jsp?type=gugudan1&val=3 HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [22/Feb/2023:12:53:35 +0900] "GET /MustHaveJSP/JSPMission/gugudan1.jsp?dan=3 HTTP/1.1" 200 296
+127.0.0.1 - - [22/Feb/2023:13:07:57 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [22/Feb/2023:13:07:58 +0900] "GET /JSPMission/Mission1/gugudan1.jsp HTTP/1.1" 500 2617
