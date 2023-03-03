@@ -14,7 +14,7 @@
 	<%
 	JDBCConnect2 jdbc = new JDBCConnect2();
 	
-	String sql = "select country.Name from country, countrylanguage where countrylanguage.Language = 'English' and country.Code = countrylanguage.CountryCode";
+	String sql = "select count(country.Name) as count from country, countrylanguage where countrylanguage.Language = 'English' and country.Code = countrylanguage.CountryCode";
 	Statement stmt = jdbc.con.createStatement();
 	
 	ResultSet rs = stmt.executeQuery(sql);
@@ -23,15 +23,10 @@
 		<tr>
 			<th scope="col">country name</th>
 		</tr>
-		<%
-		while (rs.next()) {
-		%>
+		<% rs.next(); %>
 		<tr>
-			<td><%= rs.getString("country.Name") %></td>
+			<td><%= rs.getInt("count") %></td>
 		</tr>
-		<%
-		}
-		%>
 	</table>
 </body>
 </html>
