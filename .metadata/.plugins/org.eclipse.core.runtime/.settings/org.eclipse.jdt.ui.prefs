@@ -1,5 +1,5 @@
 content_assist_autoactivation_triggers_java=.qwertyuioplkjhgfdsazxcvbnm_QWERTYUIOPLKJHGFDSAZXCVBNM
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="edu.db1.Database"><rhs name\="edu.db1.H2"/><rhs name\="edu.db1.Database"/><rhs name\="edu.db1.MySQL"/></lhs><lhs name\="edu.db1.H2"><rhs name\="edu.db1.H2"/></lhs><lhs name\="edu.db1.Main"><rhs name\="edu.db1.Main"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="edu.db1.Database"><rhs name\="edu.db1.H2"/><rhs name\="edu.db1.Database"/><rhs name\="edu.db1.MySQL"/></lhs><lhs name\="edu.db1.H2"><rhs name\="edu.db1.H2"/></lhs><lhs name\="edu.db1.Main"><rhs name\="edu.db1.Main"/></lhs><lhs name\="membership.MemberDTO"><rhs name\="membership.MemberDTO"/></lhs></history>
 content_assist_number_of_computers=17
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
