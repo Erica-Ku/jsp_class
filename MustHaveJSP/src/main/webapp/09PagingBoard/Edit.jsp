@@ -19,6 +19,7 @@ dao.close();  // DB 연결 해제
 <head>
 <meta charset="UTF-8">
 <title>회원제 게시판</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 <script type="text/javascript">
 function validateForm(form) {  // 폼 내용 검증
 	if (form.title.value == "") {
@@ -39,7 +40,7 @@ function validateForm(form) {  // 폼 내용 검증
 <h2>회원제 게시판 - 수정하기(Edit)</h2>
 <form name="writeFrm" method="post" action="EditProcess.jsp" onsubmit="return validateForm(this);">
 	<input type="hidden" name="num" value="<%= dto.getNum() %>" />
-	<table border="1" width="90%" style="border-collapse : collapse;">
+	<table class="table" border="1" width="90%" style="border-collapse : collapse;">
 		<tr>
 			<td>제목</td>
 			<td>
