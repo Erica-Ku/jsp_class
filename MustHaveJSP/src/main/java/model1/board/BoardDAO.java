@@ -44,7 +44,7 @@ public class BoardDAO extends JDBCConnect {
 												// 결과(게시물 목록)를 담을 변수
 		
 		String query = "SELECT * FROM board";
-		if (map.get("searchWord")!=null) {
+		if (map!=null && map.get("searchWord")!=null) {
 			query += " WHERE " + map.get("searchField") + " "
 					+ " LIKE '%" + map.get("searchWord") + "%' ";
 		}
@@ -75,7 +75,7 @@ public class BoardDAO extends JDBCConnect {
 		
 		return bbs;
 	}
-	
+		
 	// 검색 조건에 맞는 게시물 목록을 반환합니다(페이징 기능 지원).
 	public List<BoardDTO> selectListPage(Map<String, Object> map) {
 		List<BoardDTO> bbs = new Vector<BoardDTO>();  // 결과(게시물 목록)를 담을 변수
