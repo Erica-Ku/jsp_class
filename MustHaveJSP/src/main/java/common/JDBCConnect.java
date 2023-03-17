@@ -26,7 +26,7 @@ public class JDBCConnect {
 			String pwd = "tiger";
 			con = DriverManager.getConnection(url, id, pwd);
 			
-			System.out.println("DB 연결 성공(기본 생성자)");
+			//System.out.println("DB 연결 성공(기본 생성자)");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

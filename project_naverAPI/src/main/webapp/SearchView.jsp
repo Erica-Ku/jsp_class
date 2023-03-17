@@ -12,7 +12,7 @@
 $(function() {
 	$('#searchBtn').click(function() {
 		$.ajax({
-			url : "../NaverSearchAPI.do",  // 요청 URL
+			url : "./NaverSearchAPI.do",  // 요청 URL
 			type : "get",				   // HTTP 메서드
 			data : {					   // 매개변수로 전달할 데이터
 				keyword : $('#keyword').val(),				     // 검색어
